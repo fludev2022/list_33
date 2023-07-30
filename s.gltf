@@ -1,0 +1,156 @@
+{
+  "asset": {
+    "version": "2.0",
+    "generator": "ModelConverterX"
+  },
+  "extensionsUsed": [
+    "ASOBO_material_day_night_switch"
+  ],
+  "scene": 0,
+  "scenes": [
+    {
+      "nodes": [
+        0
+      ]
+    }
+  ],
+  "nodes": [
+    {
+      "name": "node0",
+      "children": [
+        1
+      ]
+    },
+    {
+      "name": "node1",
+      "mesh": 0
+    }
+  ],
+  "meshes": [
+    {
+      "primitives": [
+        {
+          "attributes": {
+            "POSITION": 0,
+            "NORMAL": 1,
+            "TEXCOORD_0": 2
+          },
+          "indices": 3,
+          "mode": 4,
+          "material": 0
+        }
+      ],
+      "name": "part000"
+    }
+  ],
+  "accessors": [
+    {
+      "bufferView": 1,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2925,
+      "type": "VEC3",
+      "min": [
+        0.13268999755382538,
+        -0.76353001594543457,
+        2.2829999923706055
+      ],
+      "max": [
+        0.35874998569488525,
+        0.768060028553009,
+        3.4799599647521973
+      ]
+    },
+    {
+      "bufferView": 2,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2925,
+      "type": "VEC3"
+    },
+    {
+      "bufferView": 3,
+      "byteOffset": 0,
+      "componentType": 5126,
+      "count": 2925,
+      "type": "VEC2"
+    },
+    {
+      "bufferView": 0,
+      "byteOffset": 0,
+      "componentType": 5125,
+      "count": 15558,
+      "type": "SCALAR"
+    }
+  ],
+  "materials": [
+    {
+      "name": "material00",
+      "pbrMetallicRoughness": {
+        "baseColorFactor": [
+          0.5,
+          0.5,
+          0.5,
+          1.0
+        ],
+        "roughnessFactor": 1.0,
+        "metallicFactor": 1.0,
+        "baseColorTexture": {
+          "index": 0
+        }
+      },
+      "emissiveFactor": [
+        0.0,
+        0.0,
+        0.0
+      ],
+      "extensions": {
+        "ASOBO_material_day_night_switch": {
+          "enabled": true
+        }
+      }
+    }
+  ],
+  "textures": [
+    {
+      "source": 0,
+      "name": "combinacióndecapa1-texturadifusión"
+    }
+  ],
+  "images": [
+    {
+      "uri": "combinacióndecapa1-texturadifusión.png"
+    }
+  ],
+  "bufferViews": [
+    {
+      "buffer": 0,
+      "byteOffset": 0,
+      "byteLength": 62232
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 62232,
+      "byteLength": 35100,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 97332,
+      "byteLength": 35100,
+      "byteStride": 12
+    },
+    {
+      "buffer": 0,
+      "byteOffset": 132432,
+      "byteLength": 23400,
+      "byteStride": 8
+    }
+  ],
+  "buffers": [
+    {
+      "byteLength": 155832,
+      "uri": "s.bin"
+    }
+  ]
+}
